@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+@media screen and (max-width:430px) {
+  body {
+    background: url('https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2016/01/Assassins-Creed-All-Character.jpg?itok=rDHDlZp6');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+  }
+}
