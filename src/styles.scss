@@ -5,7 +5,9 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
+  h1,h2,h3,h4,h5,h6,p,ul li, ol li{
+    color:white;
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: acFont;
   }
@@ -23,13 +25,32 @@ body {
     background: rgb(69, 69, 69);
     border-radius: 10px;
   }
+
+  .newRow {
+    min-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .col-6 {
+      width: 50%
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width:430px) {
   body {
     background: url('https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2016/01/Assassins-Creed-All-Character.jpg?itok=rDHDlZp6');
     background-size: cover;
+    background-attachment:fixed;
     min-width: 100%;
     min-height: 100vh;
+    overflow:auto;
+    video{
+      display:none;
+    }
   }
 }

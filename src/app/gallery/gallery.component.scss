@@ -16,7 +16,9 @@
   transform: translateX(200vw);
   opacity:0;
   transition: $transitions;
-
+  video {
+    max-width:100%;
+  }
   img {
     max-width: 100%;
   }
