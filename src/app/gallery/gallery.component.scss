@@ -1,0 +1,23 @@
+@import '../../globals.scss';
+
+#gallery-box {
+  height: 80vh;
+  width: 45%;
+  background: rgba(18, 15, 15, .8);
+  padding: 1%;
+  margin: 4% 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow:auto;
+  border-radius:$bRadius;
+  z-index:102;
+  transform: translateX(200vw);
+  opacity:0;
+  transition: $transitions;
+
+  img {
+    max-width: 100%;
+  }
+}

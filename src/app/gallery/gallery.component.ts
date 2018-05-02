@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements OnInit {
-
+  title = 'assasins creed one!!!';
   constructor() { }
 
   ngOnInit() {

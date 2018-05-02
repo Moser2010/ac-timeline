@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./story.component.scss']
 })
 export class StoryComponent implements OnInit {
-
+  title = 'assasins creed one';
+  textContent = "Imported text will go here.";
   constructor() { }
 
   ngOnInit() {

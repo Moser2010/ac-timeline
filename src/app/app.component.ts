@@ -8,5 +8,5 @@ import * as $ from 'jquery';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Assasins Creed Timeline';
 }

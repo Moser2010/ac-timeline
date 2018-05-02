@@ -1,0 +1,32 @@
+@import '../../globals.scss';
+
+#story-box {
+  height: 96%;
+  width: 30%;
+  background: rgba(18, 15, 15, 1);
+  padding: 1%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition:$transitions;
+  transform:translateX(-100vw);
+  opacity:0;
+  z-index:102;
+
+  #story-container {
+    overflow: auto;
+    height:100%;
+    width:100%;
+    padding:10px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+}
