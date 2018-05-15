@@ -5,9 +5,11 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  h1,h2,h3,h4,h5,h6,p,ul li, ol li{
-    color:white;
+
+  h1, h2, h3, h4, h5, h6, p, ul li, ol li {
+    color: white;
   }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: acFont;
   }
@@ -26,18 +28,17 @@ body {
     border-radius: 10px;
   }
 
-  .newRow {
-    min-width: 100%;
-    display: flex;
-    flex-flow: row wrap;
+  .slideOut {
+    margin-left: 30%;
+  }
 
-    .col-6 {
-      width: 50%
-    }
+  .slideWidth {
+    width: 30%;
+  }
 
-    .col-12 {
-      width: 100%;
-    }
+  #main {
+    height: 100vh;
+    width: 100%;
   }
 }
 

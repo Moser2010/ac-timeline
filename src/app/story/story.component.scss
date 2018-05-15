@@ -1,24 +1,26 @@
 @import '../../globals.scss';
-
+.addWidth {
+  width: 100% !important;
+}
 #story-box {
-  height: 96%;
-  width: 30%;
+  height: 100vh;
+  width: 0;
   background: rgba(18, 15, 15, 1);
-  padding: 1%;
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  transition:$transitions;
-  transform:translateX(-100vw);
-  opacity:0;
-  z-index:102;
+  transition: $transitions;
+  transform: translateX(-100vw);
+  opacity: 0;
+  z-index: 102;*/
+
 
   #story-container {
     overflow: auto;
-    height:100%;
-    width:100%;
-    padding:10px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
   }
 
   h1 {
@@ -29,4 +31,11 @@
   p {
     color: white;
   }
+  .closebtn{
+    color:white;
+    font-size:2em;
+  }
 }
+
+
+

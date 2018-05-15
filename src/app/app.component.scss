@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+
+
 }
 
 #myVideo {
@@ -16,7 +18,6 @@ body {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -28,5 +29,29 @@ body {
     background-size: cover;
     min-width: 100%;
     min-height: 100vh;
+  }
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
   }
 }
